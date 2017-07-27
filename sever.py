@@ -4,7 +4,7 @@ import time
 import requests
 import pyodbc
 app = Flask(__name__)
-@app.route("/login")
+@app.route("/accounts")
 def login():
     print("Start")
     file = open("D:/New folder (26)/dbc.txt", "r")
@@ -24,9 +24,10 @@ def login():
     driver=text[4]    
     file.close()
     print("File close")
-
+    #Driver={ODBC Driver 13 for SQL Server};Server=tcp:kappaorbannedj.database.windows.net,1433;Database=TwitchStats;Uid=Dilhan@kappaorbannedj;Pwd={your_password_here};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
     #Driver={ODBC Driver 13 for SQL Server};Server=tcp:kappaorbanned.database.windows.net,1433;Database=TwitchStats;Uid=Dilhan@kappaorbanned;Pwd={your_password_here};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
-    db =  pyodbc.connect('DRIVER='+driver+';PORT=1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
+    #db =  pyodbc.connect('DRIVER='+driver+';PORT=1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
+    db =  pyodbc.connect('DRIVER={ODBC Driver 13 for SQL Server};PORT=1433;SERVER=kappaorbannedj.database.windows.net;PORT=1443;DATABASE=TwitchStats;UID=Dilhan@kappaorbannedj;PWD=101Luminous101')
     print("DB Set")
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
@@ -40,6 +41,7 @@ def login():
         x+=1
         sql_list.append(data)
         row = cursor.fetchone()
+    print( sql_list)
     j = json.dumps( sql_list)
     return j
 
