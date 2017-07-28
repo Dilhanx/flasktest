@@ -11,6 +11,10 @@ app = Flask(__name__)
 def hello_world():
  
   return 'Hello, World I am test!'
+@app.route('/<name>')
+def name(name):
+ 
+  return name
 @app.route('/q')
 def q():
   return 'qqq'
