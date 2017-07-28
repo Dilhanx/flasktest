@@ -32,7 +32,7 @@ def test():
 
 @app.route('/ain')
 def ain():
-  
+
   return render_template('main.html')
 
 
@@ -89,11 +89,11 @@ def foo():
     app.logger.info('Info')
     return "foo"
 if __name__ == '__main__':
-  formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s") #Set log message formate
-  handler = RotatingFileHandler("log/"+time.strftime("%Y-%m-%d ")+".log", maxBytes=10000, backupCount=1) 
-  handler.setLevel(logging.INFO) 
-  handler.setFormatter(formatter)
-  app.logger.addHandler(handler) 
-  app.logger.setLevel(logging.INFO)
+  # formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s") #Set log message formate
+  # handler = RotatingFileHandler("log/"+time.strftime("%Y-%m-%d ")+".log", maxBytes=10000, backupCount=1) 
+  # handler.setLevel(logging.INFO) 
+  # handler.setFormatter(formatter)
+  # app.logger.addHandler(handler) 
+  # app.logger.setLevel(logging.INFO)
   
   app.run()
