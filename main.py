@@ -11,7 +11,9 @@ app = Flask(__name__)
 def hello_world():
   app.logger.info("Test")
   return 'Hello, World!'
-
+@app.route('/q')
+def hello_world():
+  return 'qq'
 @app.route('/test',methods=['POST'])
 def test():
   account=[]
