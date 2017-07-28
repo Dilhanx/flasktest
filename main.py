@@ -1,12 +1,15 @@
 from flask import Flask, request, render_template
+from logging.handlers import RotatingFileHandler
 import json
 import requests
 import pyodbc 
-
+import logging
+import time
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+  app.logger.info("Test")
   return 'Hello, World!'
 
 @app.route('/test',methods=['POST'])
@@ -20,9 +23,24 @@ def test():
   print (j)
   return j
 
+
+
+
+
+
 @app.route('/ain')
 def ain():
   return render_template('main.html')
+
+@app.route('/search')
+
+@app.route('/streamer/<streamername>')
+def streamer(streamername):
+  return streamername
+
+@app.route('/streamer/<streamername>/comment')
+def streamercomment(streamername):
+  return ""+streamername+"comment"
 
 @app.route('/login',methods=['POST'])
 def login():
@@ -52,15 +70,28 @@ def login():
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
     print (request.form['username'] +" "+request.form['password'])
-    cursor.execute("SELECT * From user_account where username= '"+request.form['username']+"' AND password ='"+request.form['password']+"' ;")
+    cursor.execute("SELECT count(*) As cou From user_account where username= '"+request.form['username']+"' AND password ='"+request.form['password']+"' ;")
     row = cursor.fetchone()
     print(row)
     if row.cou==1:
-      return {"\"status: login\""}
+      return "{\"status\": \"login\"}"
     else:
-      return {"status: incorrect"}
+      return "{\"status\": \"incorrect\"}"
 
 
 
+@app.route('/foo')
+def foo():
+    app.logger.warning('A warning occurred (%d apples)', 42)
+    app.logger.error('An error occurred')
+    app.logger.info('Info')
+    return "foo"
 if __name__ == '__main__':
+  formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s") #Set log message formate
+  handler = RotatingFileHandler("log/"+time.strftime("%Y-%m-%d ")+".log", maxBytes=10000, backupCount=1) 
+  handler.setLevel(logging.INFO) 
+  handler.setFormatter(formatter)
+  app.logger.addHandler(handler) 
+  app.logger.setLevel(logging.INFO)
+  
   app.run()
