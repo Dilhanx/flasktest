@@ -12,7 +12,7 @@ def hello_world():
   app.logger.info("Test")
   return 'Hello, World!'
 @app.route('/q')
-def hello_world():
+def q():
   return 'qqq'
 @app.route('/test',methods=['POST'])
 def test():
@@ -32,9 +32,9 @@ def test():
 
 @app.route('/ain')
 def ain():
+  
   return render_template('main.html')
 
-@app.route('/search')
 
 @app.route('/streamer/<streamername>')
 def streamer(streamername):
