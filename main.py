@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  app.logger.info("Test")
-  return 'Hello, World!'
+ 
+  return 'Hello, World I am test!'
 @app.route('/q')
 def q():
   return 'qqq'
