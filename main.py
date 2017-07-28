@@ -13,7 +13,7 @@ def hello_world():
   return 'Hello, World!'
 @app.route('/q')
 def hello_world():
-  return 'qq'
+  return 'qqq'
 @app.route('/test',methods=['POST'])
 def test():
   account=[]
