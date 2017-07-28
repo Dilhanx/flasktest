@@ -1,0 +1,144 @@
+Test
+Test
+Test
+Test
+Test
+2017-07-28 16:04:00,563 - __main__ - INFO - Test
+2017-07-28 16:04:17,429 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:04:17,430 - __main__ - ERROR - An error occurred
+2017-07-28 16:04:17,430 - __main__ - INFO - Info
+2017-07-28 16:07:06,853 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:06,854 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:06,854 - __main__ - INFO - Info
+2017-07-28 16:07:07,021 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:07,022 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:07,022 - __main__ - INFO - Info
+2017-07-28 16:07:07,317 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:07,318 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:07,318 - __main__ - INFO - Info
+2017-07-28 16:07:07,544 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:07,544 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:07,545 - __main__ - INFO - Info
+2017-07-28 16:07:07,840 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:07,841 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:07,841 - __main__ - INFO - Info
+2017-07-28 16:07:08,021 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:08,021 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:08,021 - __main__ - INFO - Info
+2017-07-28 16:07:08,206 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:08,207 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:08,207 - __main__ - INFO - Info
+2017-07-28 16:07:08,402 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:08,402 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:08,403 - __main__ - INFO - Info
+2017-07-28 16:07:08,593 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:08,593 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:08,594 - __main__ - INFO - Info
+2017-07-28 16:07:08,773 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:08,773 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:08,773 - __main__ - INFO - Info
+2017-07-28 16:07:08,969 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:08,970 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:08,970 - __main__ - INFO - Info
+2017-07-28 16:07:09,147 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:09,147 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:09,148 - __main__ - INFO - Info
+2017-07-28 16:07:09,327 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:09,327 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:09,328 - __main__ - INFO - Info
+2017-07-28 16:07:16,044 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:16,044 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:16,044 - __main__ - INFO - Info
+2017-07-28 16:07:16,340 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:16,340 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:16,341 - __main__ - INFO - Info
+2017-07-28 16:07:16,511 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:16,511 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:16,511 - __main__ - INFO - Info
+2017-07-28 16:07:16,689 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:16,690 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:16,690 - __main__ - INFO - Info
+2017-07-28 16:07:16,859 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:16,859 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:16,860 - __main__ - INFO - Info
+2017-07-28 16:07:17,067 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:17,067 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:17,068 - __main__ - INFO - Info
+2017-07-28 16:07:17,362 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:17,363 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:17,363 - __main__ - INFO - Info
+2017-07-28 16:07:17,538 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:17,538 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:17,538 - __main__ - INFO - Info
+2017-07-28 16:07:17,727 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:17,727 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:17,728 - __main__ - INFO - Info
+2017-07-28 16:07:17,926 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:17,926 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:17,927 - __main__ - INFO - Info
+2017-07-28 16:07:18,113 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:18,113 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:18,114 - __main__ - INFO - Info
+2017-07-28 16:07:18,301 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:18,302 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:18,302 - __main__ - INFO - Info
+2017-07-28 16:07:18,485 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:18,486 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:18,486 - __main__ - INFO - Info
+2017-07-28 16:07:18,670 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:18,670 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:18,671 - __main__ - INFO - Info
+2017-07-28 16:07:18,854 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:18,855 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:18,855 - __main__ - INFO - Info
+2017-07-28 16:07:19,042 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:19,042 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:19,042 - __main__ - INFO - Info
+2017-07-28 16:07:19,242 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:19,242 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:19,243 - __main__ - INFO - Info
+2017-07-28 16:07:19,414 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:19,414 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:19,415 - __main__ - INFO - Info
+2017-07-28 16:07:19,613 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:19,613 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:19,613 - __main__ - INFO - Info
+2017-07-28 16:07:19,784 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:19,784 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:19,784 - __main__ - INFO - Info
+2017-07-28 16:07:19,965 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:19,965 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:19,966 - __main__ - INFO - Info
+2017-07-28 16:07:20,150 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:20,150 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:20,150 - __main__ - INFO - Info
+2017-07-28 16:07:20,354 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:20,354 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:20,354 - __main__ - INFO - Info
+2017-07-28 16:07:20,558 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:20,558 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:20,559 - __main__ - INFO - Info
+2017-07-28 16:07:20,766 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:20,767 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:20,767 - __main__ - INFO - Info
+2017-07-28 16:07:20,961 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:20,961 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:20,961 - __main__ - INFO - Info
+2017-07-28 16:07:21,149 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:21,151 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:21,152 - __main__ - INFO - Info
+2017-07-28 16:07:21,341 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:21,341 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:21,342 - __main__ - INFO - Info
+2017-07-28 16:07:21,549 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:21,550 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:21,550 - __main__ - INFO - Info
+2017-07-28 16:07:21,759 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:21,759 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:21,759 - __main__ - INFO - Info
+2017-07-28 16:07:21,971 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:21,971 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:21,972 - __main__ - INFO - Info
+2017-07-28 16:07:22,161 - __main__ - WARNING - A warning occurred (42 apples)
+2017-07-28 16:07:22,161 - __main__ - ERROR - An error occurred
+2017-07-28 16:07:22,162 - __main__ - INFO - Info

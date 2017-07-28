@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from logging.handlers import RotatingFileHandler
+
 import json
 import requests
 import pyodbc 
@@ -17,24 +17,13 @@ def q():
 @app.route('/test',methods=['POST'])
 def test():
   account=[]
- 
+
   data=("username : "+request.form['username'],"password : "+request.form['password'])
   print (data)
   account.append(data)
   j = json.dumps(data)
   print (j)
   return j
-
-
-
-
-
-
-@app.route('/ain')
-def ain():
-
-  return render_template('main.html')
-
 
 @app.route('/streamer/<streamername>')
 def streamer(streamername):
@@ -82,18 +71,7 @@ def login():
 
 
 
-@app.route('/foo')
-def foo():
-    app.logger.warning('A warning occurred (%d apples)', 42)
-    app.logger.error('An error occurred')
-    app.logger.info('Info')
-    return "foo"
 if __name__ == '__main__':
-  # formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s") #Set log message formate
-  # handler = RotatingFileHandler("log/"+time.strftime("%Y-%m-%d ")+".log", maxBytes=10000, backupCount=1) 
-  # handler.setLevel(logging.INFO) 
-  # handler.setFormatter(formatter)
-  # app.logger.addHandler(handler) 
-  # app.logger.setLevel(logging.INFO)
+
   
   app.run()
