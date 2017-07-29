@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return test()
+  return 'KappaOrBanned'
 
 @app.route('/test')
 def test():
